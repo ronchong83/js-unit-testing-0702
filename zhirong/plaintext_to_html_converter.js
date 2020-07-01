@@ -3,7 +3,7 @@ const fs = require('fs')
 
 class PlaintextToHtmlConverter {
     toHtml() {
-        const text = fs.readFileSync('./henry/sample.txt', 'utf8')
+        const text = fs.readFileSync('./zhirong/sample.txt', 'utf8')
         const htmlLines = this._basicHtmlEncode(text)
         notifier.notify('HTML encoding done.')
         return htmlLines
