@@ -9,3 +9,13 @@ describe("Gilded Rose", () => {
     expect(items[0].quality).toEqual(1)
   });
 });
+
+/**
+
+TDD - Test Driven Development
+
+1. Write a failing test case
+2. Write just enough code to pass that failing test
+3. Refactor
+
+ */
